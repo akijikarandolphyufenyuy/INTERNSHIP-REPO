@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+</head>
+<body>
+	<menu type="command" label="Main Menu">
+<command type="command" label="Add" icon="add.png">
+<command type="command" label="Edit" icon="edit.png">
+<command type="command" label="Delete" icon="delete.png">
+<hr>
+<menu type="command" label="Skin" id="skinMenu">
+<command type="radio" radiogroup="skin" label="Classic">
+<command type="radio" radiogroup="skin" label="Modern" checked>
+<command type="radio" radiogroup="skin" label="Neo">
+</menu>
+<hr>
+<command type="checkbox" label="Secure Mode">
+</menu>
+<menu type="toolbar" id="fileMenu" label="File">
+<li><a href="javascript:newItem();">New</a></li>
+<li><a href="javascript:openItem();">Open</a></li>
+<li><a href="javascript:closeItem();">Close</a></li>
+<li><a href="javascript:saveItem();">Save</a></li>
+<li><a href="javascript:saveAsItem();">Save as...</a></li>
+<li><a href="javascript:exitApp();">Exit</a></li>
+</menu>
+Favorite Dog: <input type="text" list="dogs">
+<datalist id="dogs">
+<option>Angus</option>
+<option>Tucker</option>
+<option>Cisco</option>
+<option>Sabrina</option>
+</datalist>
+
+
+</body>
+</html>
